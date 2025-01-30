@@ -1,0 +1,1 @@
+This React Native bug involves using AsyncStorage to store data. When attempting to retrieve data, the app crashes with a TypeError: undefined is not an object (evaluating 'AsyncStorage.getItem') error. This happens sporadically and is difficult to reproduce consistently.  The code appears correct, but the error suggests AsyncStorage isn't properly initialized or accessed.
